@@ -1,0 +1,83 @@
+
+@media (max-width: 768px) {
+  #menu-icon {
+      display: block;
+  }
+
+  .middle-section {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 1rem 3%;
+      background: white;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgb(231, 231, 231);
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: rgba(255, 255, 255, 0.75);
+      border-radius: 12px;
+      border: 1px solid rgba(209, 213, 219, 0.3);
+      
+  }
+
+  .navbar a {
+      display: block;
+      font-size: 2rem;
+      margin: 3rem 0;
+  }
+
+  .home {
+      flex-direction: column;
+  }
+
+  .home-content h3 {
+      font-size: 2.6rem;
+  }
+
+  .home-content h1 {
+      font-size: 5rem;
+  }
+
+  .home-img img {
+      width: 90vw;
+      margin-top: 5rem;
+      height: 90vw;
+  }
+
+  .about img {
+      width: 70vw;
+      margin-top: 4rem;
+      height: 70vw;
+  }
+
+  .services h2 {
+      margin-bottom: 3rem;
+  }
+
+  .portfolio h2 {
+      margin-bottom: 3rem;
+  }
+
+  .portfolio-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 617px) {
+  .portfolio-container {
+      grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+      font-size: 50%;
+  }
+
+  .contact form .input-box input {
+      width: 100%;
+  }
+}
+
